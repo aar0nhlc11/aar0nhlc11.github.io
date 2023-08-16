@@ -1,1 +1,65 @@
-p { color: red; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #f2f2f2; /* Default light mode background color */
+    color: #333; /* Default text color */
+}
+
+.content {
+    padding: 20px;
+}
+
+.mode-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #333; /* Dark mode background color */
+    color: #f2f2f2; /* Dark mode text color */
+}
+
+.light-mode {
+    background-color: #f2f2f2; /* Light mode background color */
+    color: #333; /* Light mode text color */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.education, .github {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: red;
+}
+h2 {
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+    font-weight: bold
+}
